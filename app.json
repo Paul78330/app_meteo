@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "appMeteo",
-    "slug": "appMeteo",
+    "slug": "appmeteo",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -25,6 +25,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e9698ca9-247e-47bb-91b8-8920e9dada91"
+      }
+    },
+    "owner": "gaultier"
   }
 }
